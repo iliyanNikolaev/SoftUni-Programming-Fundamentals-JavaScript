@@ -10,7 +10,14 @@ arr.push('Undefined'); // Add element to the end on the array
 console.log(arr); // ['Mariya', 'Miglena', 'Loren', 'Anonymous', 'Daniela', 'Borislava', 'Sonya', 'Boyana', 'Undefined']
 
 
-console.log(arr.join(' ')) // Convert array into String // Mariya Miglena Loren Anonymous Daniela Borislava Sonya Boyana Undefined
+let girlsStr = arr.join(' ') // Convert array into String 
+console.log(girlsStr) // Mariya Miglena Loren Anonymous Daniela Borislava Sonya Boyana Undefined
+
+
+let strIntoArr = girlsStr.split(' '); // Convert String into array
+console.log(strIntoArr); // ['Mariya', 'Miglena', 'Loren', 'Anonymous', 'Daniela', 'Borislava', 'Sonya', 'Boyana', 'Undefined']
+
+
 
 
 
