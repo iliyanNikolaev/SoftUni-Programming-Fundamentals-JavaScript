@@ -1,12 +1,12 @@
 function calculator(firstNum, secondNum, operator) {
 
-    let multiply = (firstNum, secondNum) => firstNum * secondNum;
+    const multiply = (firstNum, secondNum) => firstNum * secondNum;
 
-    let divide = (firstNum, secondNum) => firstNum / secondNum;
+    const divide = (firstNum, secondNum) => firstNum / secondNum;
 
-    let add = (firstNum, secondNum) => firstNum + secondNum;
+    const add = (firstNum, secondNum) => firstNum + secondNum;
 
-    let subtract = (firstNum, secondNum) => firstNum - secondNum;
+    const subtract = (firstNum, secondNum) => firstNum - secondNum;
 
     switch (operator) {
         case 'multiply': return multiply(firstNum, secondNum);
