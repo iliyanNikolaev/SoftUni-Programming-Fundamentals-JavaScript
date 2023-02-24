@@ -3,13 +3,16 @@ function palindromeIntegers (arrayOfNumbers) {
     let arrayLength = arrayOfNumbers.length;
     for(let i = 0; i < arrayLength; i++) {
 
-        let currNum = arrayOfNumbers[i];
+        let currNum = arrayOfNumbers[i].toString();
 
-        let reversedNum = currNum.splice();
+        let reversedNum = currNum.split('').reverse().join('');
 
-        console.log(reversedNum);
+        if(currNum === reversedNum) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
     } 
-    
 }
 
 palindromeIntegers([123,323,421,121]);
