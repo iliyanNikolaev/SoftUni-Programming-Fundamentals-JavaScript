@@ -40,6 +40,9 @@ console.log(newArr); // ['Loren', 'Anonymous', 'Daniela', 'Borislava', 'Sonya']
 let lengths = arr.map(element => element.length); // Trasform the array
 console.log(lengths); // [6, 7, 5, 9, 7, 9, 5, 6]
 
+let lengthsToStr = lengths.map(element => element.toString()) // Transform elements on array from numbers to strings
+console.log(lengthsToStr); // ['6', '7', '5', '9', '7', '9', '5', '6']
+
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 let doubledNumbers = numbers.map(number => number * 2);
 console.log(doubledNumbers); // [2, 4, 6, 8, 10, 12, 14, 16]
