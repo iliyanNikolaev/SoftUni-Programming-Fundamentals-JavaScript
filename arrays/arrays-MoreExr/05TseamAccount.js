@@ -48,21 +48,9 @@ function tseamAccount(input) {
                 let expansion = gameNameArr[1];
 
                 if (startingGames.includes(gameName)) {
-                    
-                    let newArr = [];
-                    
-                    for (let j = 0; j <= startingGames.length; j++) {
-                        
-                        let element = startingGames[j];
+                    let gameIndex = startingGames.indexOf(gameName);
 
-                        newArr.push(element);
-
-                        if (element === gameName) {
-                            newArr.push(`${gameName}:${expansion}`)
-                        }
-                    }
-
-                    startingGames = newArr;
+                    startingGames.splice(gameIndex + 1, 0, `${gameName}:${expansion}`);
                 }
                 break;
         }
@@ -75,9 +63,8 @@ function tseamAccount(input) {
 }
 
 tseamAccount(['CS WoW Diablo',
-'Uninstall XCOM',
-'Update PeshoGame',
-'Update WoW',
-'Expansion Civ-V',
-'Play!']
-);
+'Install LoL',
+'Uninstall WoW',
+'Update Diablo',
+'Expansion CS-Go',
+'Play!']);
