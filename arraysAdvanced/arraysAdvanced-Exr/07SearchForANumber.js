@@ -11,7 +11,7 @@ function searchForNum (array, params) {
 
     let counter = 0;
 
-    for(num of modifiedArray) {
+    for(let num of modifiedArray) {
         if(num === searchedNum) {
             counter++;
         }
