@@ -69,3 +69,49 @@ for (const match of allMatches) {
 (1) ['coercing()', index: 225, input: 'The RegExp() constructor directly returns the…es instead of coercing() pattern to a string.', groups: undefined]
 */
 
+console.log('------MoreExmp------')
+
+// More Examples
+
+//exec
+
+let exampleText = 'a1b2c3d4e5f6g7h8e9';
+
+let numsPattern = /[0-9+]/g;
+
+let resultNumsArr = [];
+
+let numMatch = numsPattern.exec(exampleText);
+console.log(numMatch) // ['1', index: 1, input: 'a1b2c3d4e5f6g7h8e9', groups: undefined]
+
+while(numMatch !== null) {
+
+    resultNumsArr.push(numMatch[0]);
+
+    numMatch = numsPattern.exec(exampleText);
+}
+
+console.log(resultNumsArr) // ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+//matchAll
+
+let matchAllDigits = exampleText.matchAll(numsPattern);
+
+console.log(matchAllDigits) // RegExpStringIterator
+
+let matchedNumsArr = []
+
+for (const match of matchAllDigits) {
+    matchedNumsArr.push(match[0])
+}
+
+console.log(matchedNumsArr) // ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+
+// match
+
+let matchedNumbers = exampleText.match(numsPattern);
+
+console.log(matchedNumbers) //['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+
