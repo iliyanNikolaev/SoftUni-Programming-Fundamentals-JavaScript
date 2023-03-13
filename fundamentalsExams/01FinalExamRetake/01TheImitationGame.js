@@ -59,14 +59,11 @@ function imitation(input) {
     console.log(`The decrypted message is: ${message}`);
 }
 
-imitation(
-    [
-        'owyouh',
-        'Move|2',
-        'Move|3',
-        'Insert|3|are',
-        'Insert|9|?',
-        'Decode'
-      ]
-      
-)
+imitation([
+    'owyouh',
+    'Move|2',
+    'Move|3',
+    'Insert|3|are',
+    'Insert|9|?',
+    'Decode'
+])
