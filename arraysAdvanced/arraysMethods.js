@@ -68,6 +68,16 @@ console.log(randomNumbers); // [0, 1, 3, 4, 5, 12, 30, 32]
 arr.sort((a, b) => a.localeCompare(b)); // sorting strings
 console.log(arr); // ['Anonymous', 'Borislava', 'Boyana', 'Daniela', 'Loren', 'Mariya', 'Miglena', 'Sonya']
 
+// reduce method
+
+let numbersArr = [1, 2, 3, 4, 5];
+
+let sum = numbersArr.reduce((acc, num) =>{return acc + num}, 0);
+
+console.log(sum) // 15
+
+
+
 
 
 
