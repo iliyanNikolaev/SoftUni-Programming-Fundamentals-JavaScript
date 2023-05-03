@@ -1,6 +1,9 @@
 # SoftUni-Programming-Fundamentals-JavaScript
 <img width="100" alt="softuniLogo" src="https://user-images.githubusercontent.com/121745595/219448556-2c7c7f5a-c282-411b-9253-1b55fff353d7.png">
-The second course in JavaScript path.
+
+With "Programming Fundamentals," students begin to study SoftUni's internal program for comprehensive training of software engineers. The course covers fundamental programming concepts that serve as a foundation for effective and quality training in professional modules. Students build on the knowledge gained in the Programming Basics course and begin to use more advanced programming techniques and structures such as arrays, lists, objects, and classes.
+
+Additional technologies necessary for any software developer are studied, such as HTML and CSS, HTTP, bitwise operations, and others. The basics of web development are also explored, as well as one of the most widespread technologies and tools, which the course successfully builds awareness among students about the upcoming professional modules and the knowledge they will gain from them to become successful software developers.
 
 Topics covered in the course:
 
@@ -14,6 +17,3 @@ Topics covered in the course:
 8. Text Processing
 9. Regular Expressions
 
-The tasks that we solved during lectures and exercises have been uploaded. All solutions here have received the maximum possible number of points in the evaluation system of SoftUni - Judge.
-
-My profile in Judge -> https://judge.softuni.org/Users/ilic.nikolaevic
